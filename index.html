@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishwagan</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="Vishwagan Logo" />
+      </div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#members">Members</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <span class="menu-icon" onclick="toggleMenu()">☰</span>
+    </div>
+
+    <div class="hero" id="home">
+      <div class="child">
+        <p class="welcome">Welcome to Vishwagan</p>
+        <p class="haha">Your success is our priority</p>
+        <p class="tagline">Innovating with Wisdom, Creating with Excellence.</p>
+      </div>
+    </div>
+
+    <div class="about" id="about">
+      <h2 class="ab" data-aos="fade-up-right">About Vishwagan</h2>
+      <div class="about-content">
+        <p class="abtext" data-aos="fade-up-right">
+          Inspired by Vishwakarma, the divine architect, and Karunungan, the
+          essence of wisdom, Vishwagan is a student-led startup driven by
+          innovation and expertise. We merge creativity with technology to
+          develop smart, impactful solutions, shaping a future where knowledge
+          and craftsmanship build a better world.
+        </p>
+      </div>
+    </div>
+
+    <div class="absec">
+      <div class="abchild">
+        <p class="t" data-aos="fade-right">SMALL BUT MIGHTY</p>
+      </div>
+    </div>
+
+    <div class="team">
+      <h2 data-aos="fade-left">The team</h2>
+    </div>
+
+    <div class="members-section" id="members">
+      <div class="logs">
+        <img data-aos="fade-right" src="logo.png" alt="" />
+      </div>
+
+      <div class="carousel">
+        <button class="prev" onclick="prevSlide()">❮</button>
+
+        <div class="carousel-container">
+          <div class="carousel-slide">
+            <div class="member">
+              <img
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"
+                src="3.jpg"
+                alt="Issha Karel Baltazar"
+              />
+              <div class="text-box">
+                <p class="name" data-aos="zoom-out-right">
+                  Issha Karel Baltazar
+                </p>
+                <p class="role" data-aos="zoom-out-left">CEO</p>
+                <p class="desc" data-aos="zoom-out-right">
+                  As the CEO of Green Glam, I oversee our team's progress, make
+                  key decisions, and ensure everything runs smoothly.
+                </p>
+              </div>
+            </div>
+
+            <div class="member">
+              <img
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"
+                src="2.jpg"
+                alt="Kenrich Ed Amar"
+              />
+              <div class="text-box">
+                <p class="name" data-aos="zoom-out-right">Kenrich Ed Amar</p>
+                <p class="role" data-aos="zoom-out-left">Marketing Director</p>
+                <p class="desc" data-aos="zoom-out-right">
+                  I develop marketing strategies and ensure our brand reaches
+                  the right audience.
+                </p>
+              </div>
+            </div>
+
+            <div class="member">
+              <img
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"
+                src="1.jpg"
+                alt="Jessica Flores"
+              />
+              <div class="text-box">
+                <p class="name" data-aos="zoom-out-right">Jessica Flores</p>
+                <p class="role" data-aos="zoom-out-left">Data Analyst</p>
+                <p class="desc" data-aos="zoom-out-right">
+                  I analyze data to help make informed decisions and track
+                  performance.
+                </p>
+              </div>
+            </div>
+
+            <div class="member">
+              <img
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"
+                src="4.jpg"
+                alt="Sherwen Cabanilla"
+              />
+              <div class="text-box">
+                <p class="name" data-aos="zoom-out-right">Sherwen Cabanilla</p>
+                <p class="role" data-aos="zoom-out-left">Lead Developer</p>
+                <p class="desc" data-aos="zoom-out-right">
+                  I develop and maintain the project’s technical aspects.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="next" onclick="nextSlide()">❯</button>
+      </div>
+    </div>
+
+    <div class="contact" id="contact">
+      <h2>Contact Vishwagan</h2>
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <p>contact@vishwagan.com</p>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <p>+123 456 7890</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function toggleMenu() {
+        document.querySelector(".nav-links").classList.toggle("active");
+      }
+    </script>
+
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      let index = 0;
+      const slides = document.querySelectorAll(".member");
+      const totalSlides = slides.length;
+
+      function showSlide() {
+        const carouselContainer = document.querySelector(".carousel-container");
+        const slideWidth = slides[0].offsetWidth;
+        carouselContainer.style.transform = `translateX(${
+          -index * slideWidth
+        }px)`;
+      }
+
+      function nextSlide() {
+        index = (index + 1) % totalSlides;
+        showSlide();
+      }
+
+      function prevSlide() {
+        index = (index - 1 + totalSlides) % totalSlides;
+        showSlide();
+      }
+
+      // Auto-slide disabled for simplicity; can be re-enabled if desired
+      window.addEventListener("resize", showSlide); // Adjust position on resize
+      showSlide(); // Initial call
+    </script>
+    <script>
+      function toggleMenu() {
+        const navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
